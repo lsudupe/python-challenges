@@ -1,27 +1,30 @@
 '''Assume "#" is like a backspace in string. This means that string "a#bc#d" actually is "bd"
 Your task is to process a string with "#" symbols.'''
 
-string = 'ab#c###db'
-
-
-
-
-
-
-
+string = 'a#bc#d'
 
 
 def backspaces(s):
-    list = [chac for chac in enumerate(s)]
-    clean = []
-    for i,i2 in list:
-        if i2 == '#':
-            clean.append(list.remove(list[i2] and list[i2 - 1])
-print(clean)
-    final_string = ''.join(clean))
-    return final_string
+    #list = [char for char in s]
+    before_index = [idx for idx in enumerate(s)]
+    
 
-print(backspaces(string))
+
+    print(before_index)
+        
+                
+
+    #list.remove('#')
+   
+    
+
+
+  
+
+
+backspaces(string)
+
+
 
 
 
